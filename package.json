@@ -1,0 +1,44 @@
+{
+  "name": "generator-aladin",
+  "version": "1.0.6",
+  "description": "A set of yeoman generators building Aladin apps",
+  "homepage": "https://aladinnetwork.org",
+  "author": {
+    "name": "Aladin Network",
+    "email": "admin@aladinnetwork.org",
+    "url": "https://aladinnetwork.org"
+  },
+  "files": [
+    "app",
+    "react",
+    "webpack",
+    "vue",
+    "lib",
+    "cmd"
+  ],
+  "bin": "./cmd/index.js",
+  "main": "lib/index.js",
+  "keywords": [
+    "genrator-aladin",
+    "aladin",
+    "apps",
+    "yeoman",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yeoman-environment": "^2.4.0",
+    "yeoman-generator": "^4.0.2",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
+  },
+  "repository": "https://github.com/ALADINIO/aladin-app-generator",
+  "scripts": {
+    "test": "mocha test/app.js"
+  },
+  "license": "MIT"
+}
